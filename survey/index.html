@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+
+  <header>
+
+  </header>
+
+  <body>
+    <div id="main">
+      <div>
+        <h1 id="title">GAMING HABITS SURVEY</h1>
+        <p id="description">Let me know about your gaming habits.</p>
+      </div>
+
+      <form id="survey-form">
+        <!-- Name -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="name-label" for="name">Name*: </label>
+          </div>
+          <div class="fieldsTab">
+            <input id="name" name="name" type="text" class="input-field" placeholder="Enter your Name" required>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="email-label" for="email">Email*: </label>
+          </div>
+          <div class="fieldsTab">
+            <input id="email" name="email" type="text" class="input-field" placeholder="Enter your Email Address" required>
+          </div>
+        </div>
+
+        <!-- Age -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="number-label" for="age">Age*: </label>
+          </div>
+          <div class="fieldsTab">
+            <input id="number" name="age" type="number" min="1" max="125" class="input-field" style="width: 50px;" placeholder="Age" required>
+          </div>
+        </div>
+
+        <!-- Gender Identity -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="gender-label" for="gender">Gender: </label>
+          </div>
+          <div class="fieldsTab">
+            <select id="gender" name="gender" class="dropdown">
+              <option disabled value>Select an Option</option>
+              <option vale="male">Male</option>
+              <option vale="female">Female</option>
+              <option vale="nonbi">Non-Binary</option>
+              <option vale="notsay">Rather Not Say</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Classification -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="classification-label" for="classification">What kind of gamer are you?</label>
+          </div>
+          <div class="fieldsTab">
+            <select id="dropdown" name="class" class="dropdown">
+              <option disabled value>Select an Option</option>
+              <option vale="hardcore">Hardcore</option>
+              <option vale="casual">Casual</option>
+              <option vale="none">I'm not a gamer</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Gaming Time -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="classification-label" for="classification">How long do you spend playing games in a week?</label>
+          </div>
+          <div class="fieldsTab">
+            <ul style="list-style: none;">
+              <li class="radio"><input name="radio-buttons" value="1" type="radio" class="userRatings"><label>One or two hours a week</label></li>
+              <li class="radio"><input name="radio-buttons" value="1" type="radio" class="userRatings"><label>Less than an hour a day</label></li>
+              <li class="radio"><input name="radio-buttons" value="2" type="radio" class="userRatings"><label>1 - 2 hours a day</label></li>
+              <li class="radio"><input name="radio-buttons" value="3" type="radio" class="userRatings"><label>3 - 5 hours a day</label></li>
+              <li class="radio"><input name="radio-buttons" value="4" type="radio" class="userRatings"><label>More than 5 hours a day</label></li>
+              <li class="radio"><input name="radio-buttons" value="5" type="radio" class="userRatings"><label>I don't play during the week, but I spend most of the weekend gaming</label></li>
+              <li class="radio"><input name="radio-buttons" value="3" type="radio" class="userRatings"><label>I don't game regurlarly, but when i do I dedicate a couple of days to it</label></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Gaming Mode -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="mode-label" for="mode">Do you play predominantly online/multiplayer or single-player games?</label>
+          </div>
+          <div class="fieldsTab">
+            <ul style="list-style: none;">
+              <li class="radio"><input name="radio-buttons" value="1" type="radio" class="userRatings"><label>I play online with friends</label></li>
+              <li class="radio"><input name="radio-buttons" value="2" type="radio" class="userRatings"><label>I play online on open servers</label></li>
+              <li class="radio"><input name="radio-buttons" value="3" type="radio" class="userRatings"><label>I only play online occasionaly, either with friends or on open servers</label></li>
+              <li class="radio"><input name="radio-buttons" value="4" type="radio" class="userRatings"><label>I play more single-player games</label></li>
+              <li class="radio"><input name="radio-buttons" value="5" type="radio" class="userRatings"><label>I exclusively play single-player games</label></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Favorite Genres -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="mode-label" for="mode">What genres do you play most? Check all that apply.</label>
+          </div>
+          <div class="fieldsTab">
+            <ul style="list-style: none;">
+              <li class="checkbox"><input name="radio-buttons" value="1" type="checkbox" class="userRatings"><label>FPS</label></li>
+              <li class="radio"><input name="radio-buttons" value="2" type="checkbox" class="userRatings"><label>TPS</label></li>
+              <li class="radio"><input name="radio-buttons" value="3" type="checkbox" class="userRatings"><label>MMO</label></li>
+              <li class="radio"><input name="radio-buttons" value="4" type="checkbox" class="userRatings"><label>Battle Royale</label></li>
+              <li class="radio"><input name="radio-buttons" value="5" type="checkbox" class="userRatings"><label>Adventure</label></li>
+              <li class="radio"><input name="radio-buttons" value="6" type="checkbox" class="userRatings"><label>Action</label></li>
+              <li class="radio"><input name="radio-buttons" value="7" type="checkbox" class="userRatings"><label>Simulators</label></li>
+              <li class="radio"><input name="radio-buttons" value="8" type="checkbox" class="userRatings"><label>JRPG</label></li>
+              <li class="radio"><input name="radio-buttons" value="9" type="checkbox" class="userRatings"><label>WRPG</label></li>
+              <li class="checkbox"><input name="radio-buttons" value="10" type="checkbox" class="userRatings"><label>Survival</label></li>
+              <li class="radio"><input name="radio-buttons" value="11" type="checkbox" class="userRatings"><label>Survival Horror</label></li>
+              <li class="radio"><input name="radio-buttons" value="12" type="checkbox" class="userRatings"><label>Platformer</label></li>
+              <li class="radio"><input name="radio-buttons" value="13" type="checkbox" class="userRatings"><label>Puzzles</label></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Comments -->
+        <div class="row">
+          <div class="labelTab">
+            <label id="email-label" for="email">If you have any comments, please let me know: </label>
+          </div>
+          <div class="fieldsTab">
+            <textarea id="comments" name="comment" class="input-field" style="height: 60px; resize: vertical;" placeholder="Enter your comment here..."></textarea>
+          </div>
+        </div>
+
+        <!-- Submit -->
+        <div class="row">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <footer>
+
+  </footer>
+
+</html>
