@@ -8,6 +8,16 @@ body {
 }
 
 .container-fluid{
+  max-width: 100%;html{
+  position: relative;
+  min-height: 100%
+}
+
+body { 
+  padding-top: 50px; 
+}
+
+.container-fluid{
   max-width: 100%;
 }
 
@@ -34,7 +44,7 @@ header{
 header .title{
   font-family: 'Press Start 2P', cursive;
   font-size: 68px;
-  color: #5D5E60;
+  color: #71BF44;
   text-shadow: 3px 4px 0 #FFFFFF;
 }
 
@@ -59,14 +69,22 @@ header .img-small{
   }
 }
 
-#portrait{
+#image{
   margin-bottom: 16px;
+  width: 50%;
 }
 
 @media screen (max-width: 950px) {
-  #portrait{
-    width: 60%;
+  #image{
   }
+}
+
+figcaption{
+  display: inline-block;
+}
+
+figure figcaption{
+  text-align: center;
 }
 
 #about{
@@ -95,7 +113,7 @@ header .img-small{
 }
 
 #timeline .img-downsized{
-  width: 74%;
+  width: 40%;
   margin-bottom: 0.4em;
 }
 

@@ -4,7 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>A Tribute to Satoru Iwata</title>
-  
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Tribute to Satoru Iwata</title>
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -17,6 +23,8 @@
 
   <!-- Scripts -->
   <script src="https://use.fontawesome.com/0d3cbf2804.js"></script>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -52,141 +60,149 @@
     <div class="container-fluid">
       <div class="row">
         <img class="img-responsive center-block img-small" src="http://media0.giphy.com/media/rOhH4D15SlWCc/giphy.gif">
-        <h1 class="title text-center">SATORU IWATA</h1>
+        <h1 id="title" class="title text-center">SATORU IWATA</h1>
         <h3 class="subtitle text-center">Eternally shining star of the gaming industry</h3>
       </div>
     </div>
   </header>
+  <div id="main">
+    <section id="about">
+      <article>
+        <div class="container-fluid">
+          <div class="row">
+            <div id="img-div" class="col-xs-12 col-md-4">
+              <figure id="img-div">
+                <img id="image" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Satoru_Iwata_-_Game_Developers_Conference_2011_-_Day_2_(1).jpg">
+                <figcaption id="img-caption">Satoru Iwata at GDC 2011</figcaption>
+              </figure>
+            </div>
 
-  <section id="about">
-    <article>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-md-4">
-            <img id="portrait" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Satoru_Iwata_-_Game_Developers_Conference_2011_-_Day_2_(1).jpg">
-          </div>
+            <div id="tribute-info" class="about-text col-xs-12 col-sm-12 col-md-8">
+              <p class="lead text-justify">Satoru Iwata (December 6, 1959 – July 11, 2015) was a Japanese game programmer and businessman who served as the fourth president and CEO of Nintendo.</p>
 
-          <div class="about-text col-xs-12 col-sm-12 col-md-8">
-            <p class="lead text-justify">Satoru Iwata (December 6, 1959 – July 11, 2015) was a Japanese game programmer and businessman who served as the fourth president and CEO of Nintendo.</p>
+              <p class="text-justify">Born in Sapporo, Japan, Iwata expressed interest in video games from an early age and created his first simple game while in high school. He later majored in computer science at the Tokyo Institute of Technology. In 1980, he joined the game
+                developer HAL Laboratory while attending the university. During his early years at HAL Laboratory he worked as a programmer and closely collaborated with Nintendo, producing his first commercial game in 1983. Notable titles to which he
+                contributed at HAL include <em>EarthBound, Kirby series, Pokémon</em> and <em>Super Smash Bros. series.</em></p>
 
-            <p class="text-justify">Born in Sapporo, Japan, Iwata expressed interest in video games from an early age and created his first simple game while in high school. He later majored in computer science at the Tokyo Institute of Technology. In 1980, he joined the game developer HAL Laboratory while attending the university. During his early years at HAL Laboratory he worked as a programmer and closely collaborated with Nintendo, producing his first commercial game in 1983. Notable titles to which he contributed at HAL include <em>EarthBound, Kirby series, Pokémon</em> and <em>Super Smash Bros. series.</em></p>
+              <p class="text-justify">Under Iwata's direction, Nintendo developed the <em>Nintendo DS</em> and <em>Wii</em> video game consoles, helping the company to achieve financial success in the industry. As a self-declared gamer, he focused on expanding the appeal of
+                video games across all demographics through a "blue ocean" business strategy. The company attained record profits by 2009, and Barron's placed Iwata among the top 30 CEOs worldwide. Iwata subsequently expanded his blue ocean strategy by
+                defining a quality of life product line for the Wii that later evolved into a ten-year business strategy to create stand-alone products.</p>
 
-            <p class="text-justify">Under Iwata's direction, Nintendo developed the <em>Nintendo DS</em> and <em>Wii</em> video game consoles, helping the company to achieve financial success in the industry. As a self-declared gamer, he focused on expanding the appeal of video games across all demographics through a "blue ocean" business strategy. The company attained record profits by 2009, and Barron's placed Iwata among the top 30 CEOs worldwide. Iwata subsequently expanded his blue ocean strategy by defining a quality of life product line for the Wii that later evolved into a ten-year business strategy to create stand-alone products.</p>
-
-            <p class="text-justify">Throughout his career, Iwata built a strong relationship with Nintendo fans through social media and his regular appearances in <em>Iwata Asks</em> and <em>Nintendo Direct</em>; he accordingly became the public face of the company.</p>
+              <p class="text-justify">Throughout his career, Iwata built a strong relationship with Nintendo fans through social media and his regular appearances in <em>Iwata Asks</em> and <em>Nintendo Direct</em>; he accordingly became the public face of the company.</p>
+            </div>
           </div>
         </div>
-      </div>
-    </article>
-  </section>
+      </article>
+    </section>
 
-  <section id="quote">
-    <div class="container-fluid">
-      <div clas="row">
-        <h3><strong><q class="text-justify">On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.</q>
+    <section id="quote">
+      <div class="container-fluid">
+        <div clas="row">
+          <h3><strong><q class="text-justify">On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.</q>
           <p class="text-right"><small> - Satoru Iwata at the 2005 GDC</small></p></strong></h3>
-      </div>
-    </div>
-  </section>
-
-  <section id="timeline">
-    <article>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-8">
-            <dl>
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  1959</dfn></dt>
-              <dd>&#x95; Satoru-san was born in Sapporo, Japan.</dd>
-              <br>
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  1980</dfn></dt>
-              <dd>&#x95; Joined HAL Laboratory after graduating from Tokyo Institute of Technology in Computer Science.</dd>
-              <dd>&#x95; At HAL Labs he worked on EarthBound, Kirby, Pokémon and Super Smash Bros.</dd>
-              <br>
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  1993</dfn></dt>
-              <dd>&#x95; Promoted to president of HAL Labs, and helped to turn the company around.</dd>
-              <br>
-
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2000</dfn></dt>
-              <dd>&#x95; Joined Nintendo as the head of corporate-planning division.</dd>
-              <br>
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2002</dfn></dt>
-              <dd>&#x95; In an unprecedented event in the history of Nintendo, Satoru Iwata was became the company's fourth president.</dd>
-              <br>
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2004</dfn></dt>
-              <dd>&#x95; Iwata-san led the company's transition from the Game Boy to the Nintendo DS.</dd>
-              <dd>&#x95; The NDS quickly became the world's best selling handheld.</dd>
-              <br>
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2006</dfn></dt>
-              <dd>&#x95; Satoru spearheaded the launch of the Wii, which sold over 100 million units worldwide.</dd>
-              <dd>&#x95; With its emphasis on motion controls and novelty, the Wii reached a much wider demographic than the previous consoles.</dd>
-              <br>
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2013</dfn></dt>
-              <dd>&#x95; He became Nintendo of America's CEO.</dd>
-              <br>
-
-              <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2015</dfn></dt>
-              <dd>&#x95; After several years of refusal, Iwata put a portion of Nintendo's focus into the rapidly growing mobile game market</dd>
-              <dd>&#x95; A landmark partnership with mobile provider DeNA was established that March.</dd>
-              <dd>&#x95; Sadly, on the 11th of July, Iwata-san died of a reissuing tumor in his bile duct, at the age of 55.</dd>
-              <br>
-            </dl>
-          </div>
-
-          <div class="col-xs-6 col-md-4">
-            <img class="hidden-xs img-responsive img-downsized" src="http://i.imgur.com/PLPP82f.png">
-            <img class="hidden-xs img-responsive img-downsized" src="http://i.imgur.com/KQpWxwZ.png">
-            <img class="hidden-xs img-responsive img-downsized" src="http://i.imgur.com/AwAuyrD.png">
-            <img class="hidden-xs hidden-lg img-responsive img-downsized" src="http://i.imgur.com/mZBgqfZ.png">
-            <img class="hidden-xs hidden-lg img-responsive img-downsized" src="http://i.imgur.com/nIcRJhX.png">
-          </div>
         </div>
       </div>
-    </article>
-  </section>
+    </section>
 
-  <section id="gallery" class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12">
-        <!-- Gallery First Row -->
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
+    <section id="timeline">
+      <article>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8">
+              <dl>
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  1959</dfn></dt>
+                <dd>&#x95; Satoru-san was born in Sapporo, Japan.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  1980</dfn></dt>
+                <dd>&#x95; Joined HAL Laboratory after graduating from Tokyo Institute of Technology in Computer Science.</dd>
+                <dd>&#x95; At HAL Labs he worked on EarthBound, Kirby, Pokémon and Super Smash Bros.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  1993</dfn></dt>
+                <dd>&#x95; Promoted to president of HAL Labs, and helped to turn the company around.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2000</dfn></dt>
+                <dd>&#x95; Joined Nintendo as the head of corporate-planning division.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2002</dfn></dt>
+                <dd>&#x95; In an unprecedented event in the history of Nintendo, Satoru Iwata was became the company's fourth president.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2004</dfn></dt>
+                <dd>&#x95; Iwata-san led the company's transition from the Game Boy to the Nintendo DS.</dd>
+                <dd>&#x95; The NDS quickly became the world's best selling handheld.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2006</dfn></dt>
+                <dd>&#x95; Satoru spearheaded the launch of the Wii, which sold over 100 million units worldwide.</dd>
+                <dd>&#x95; With its emphasis on motion controls and novelty, the Wii reached a much wider demographic than the previous consoles.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2013</dfn></dt>
+                <dd>&#x95; He became Nintendo of America's CEO.</dd>
+                <br>
+
+                <dt><i class="fa fa-gamepad" aria-hidden="true"></i><dfn>  2015</dfn></dt>
+                <dd>&#x95; After several years of refusal, Iwata put a portion of Nintendo's focus into the rapidly growing mobile game market</dd>
+                <dd>&#x95; A landmark partnership with mobile provider DeNA was established that March.</dd>
+                <dd>&#x95; Sadly, on the 11th of July, Iwata-san died of a reissuing tumor in his bile duct, at the age of 55.</dd>
+                <br>
+              </dl>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+              <img class="hidden-xs img-responsive img-downsized" src="http://i.imgur.com/PLPP82f.png">
+              <img class="hidden-xs img-responsive img-downsized" src="http://i.imgur.com/KQpWxwZ.png">
+              <img class="hidden-xs img-responsive img-downsized" src="http://i.imgur.com/AwAuyrD.png">
+              <img class="hidden-xs hidden-lg img-responsive img-downsized" src="http://i.imgur.com/mZBgqfZ.png">
+              <img class="hidden-xs hidden-lg img-responsive img-downsized" src="http://i.imgur.com/nIcRJhX.png">
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="gallery" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Gallery First Row -->
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#">
             <img class="img-responsive" src="http://i.imgur.com/uUj9Aqr.jpg" alt="">
           </a>
-        </div>
+          </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#">
             <img class="img-responsive" src="http://i.imgur.com/tulShxr.jpg" alt="">
           </a>
-        </div>
+          </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#">
             <img class="img-responsive" src="http://i.imgur.com/40jpFkI.jpg" alt="">
           </a>
-        </div>
+          </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#">
             <img class="img-responsive" src="http://i.imgur.com/UyXiUVD.jpg" alt="">
           </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="links" class="container-fluid">
-    <div class="row">
-      <p class="lead text-justify">If you wanna know more about mr. Satoru Iwata, one of the most important and iconic figures the industry has already seen, please visit <a href="https://en.wikipedia.org/wiki/Satoru_Iwata">Wikipedia</a> or the <a href="http://nintendo.wikia.com/wiki/Satoru_Iwata">Nintendo Wiki</a>. You can also see the <a href="http://iwataasks.nintendo.com/">Iwata Asks</a> to take a look at his work as the face of Big N.</p>
-    </div>
-  </section>
+    <section id="links" class="container-fluid">
+      <div class="row">
+        <p class="lead text-justify">If you wanna know more about mr. Satoru Iwata, one of the most important and iconic figures the industry has already seen, please visit <a id="tribute-link" href="https://en.wikipedia.org/wiki/Satoru_Iwata" target=_blank>Wikipedia</a> or the
+          <a href="http://nintendo.wikia.com/wiki/Satoru_Iwata">Nintendo Wiki</a>. You can also see the <a href="http://iwataasks.nintendo.com/">Iwata Asks</a> to take a look at his work as the face of Big N.</p>
+      </div>
+    </section>
+  </div>
 
   <footer>
     <p>Coded by <span class="name">Paulo Suchoj</span></p>
