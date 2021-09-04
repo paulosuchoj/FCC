@@ -9,178 +9,166 @@ body {
 
 .container-fluid {
   max-width: 100%;
+}
 
-  html {
-    position: relative;
-    min-height: 100%
-  }
+.img-responsive {
+  margin: 0 auto;
+}
 
-  body {
-    padding-top: 50px;
-  }
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
-  .container-fluid {
-    max-width: 100%;
-  }
+section {
+  font-size: 1.1em;
+}
 
-  .img-responsive {
-    margin: 0 auto;
-  }
+header {
+  background-image: url(http://67.media.tumblr.com/tumblr_lbr5g94SaY1qzp9weo1_1280.jpg);
+  background-repeat: repeat;
+  padding: 8em 0 8em 0;
+}
 
-  ul,
-  li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
+header .title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 68px;
+  color: #71BF44;
+  text-shadow: 3px 4px 0 #FFFFFF;
+}
 
-  section {
-    font-size: 1.1em;
-  }
-
-  header {
-    background-image: url(http://67.media.tumblr.com/tumblr_lbr5g94SaY1qzp9weo1_1280.jpg);
-    background-repeat: repeat;
-    padding: 8em 0 8em 0;
-  }
-
+@media screen and (max-width: 768px) {
   header .title {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 68px;
-    color: #71BF44;
-    text-shadow: 3px 4px 0 #FFFFFF;
+    font-size: 58px;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    header .title {
-      font-size: 58px;
-    }
-  }
+header .subtitle {
+  font-family: 'Roboto Mono', monospace;
+  color: #FFFFFF;
+}
 
-  header .subtitle {
-    font-family: 'Roboto Mono', monospace;
-    color: #FFFFFF;
-  }
+header .img-small {
+  width: 6%;
+}
 
+@media screen and (max-width: 768px) {
   header .img-small {
-    width: 6%;
+    width: 16%;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    header .img-small {
-      width: 16%;
-    }
-  }
+#image {
+  margin-bottom: 16px;
+  width: 50%;
+}
 
-  #image {
-    margin-bottom: 16px;
-    width: 50%;
-  }
+@media screen (max-width: 950px) {
+  #image {}
+}
 
-  @media screen (max-width: 950px) {
-    #image {}
-  }
+figcaption {
+  display: inline-block;
+}
 
-  figcaption {
-    display: inline-block;
-  }
+figure figcaption {
+  text-align: center;
+}
 
-  figure figcaption {
-    text-align: center;
-  }
+#about {
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgba(95, 143, 223, 0.6);
+  padding: 4em 2em 3em 2em;
+}
 
-  #about {
-    font-family: 'Roboto Mono', monospace;
-    background-color: rgba(95, 143, 223, 0.6);
-    padding: 4em 2em 3em 2em;
-  }
+#quote {
+  font-family: 'Roboto Mono', monospace;
+  background-image: url(http://i293.photobucket.com/albums/mm44/romero_28/SI_Wallpaper_YoshiPattern_Product_zpsf95b7352.png);
+  background-repeat: repeat;
+  padding: 4em;
+}
 
-  #quote {
-    font-family: 'Roboto Mono', monospace;
-    background-image: url(http://i293.photobucket.com/albums/mm44/romero_28/SI_Wallpaper_YoshiPattern_Product_zpsf95b7352.png);
-    background-repeat: repeat;
-    padding: 4em;
-  }
+#quote p {
+  text-shadow: 1px 1px 0 #000000;
+}
 
-  #quote p {
-    text-shadow: 1px 1px 0 #000000;
-  }
+#timeline {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  text-align: justify;
+  background-color: rgba(255, 242, 53, 0.6);
+  padding: 4em 2em 0.5em 2em;
+}
 
-  #timeline {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-    text-align: justify;
-    background-color: rgba(255, 242, 53, 0.6);
-    padding: 4em 2em 0.5em 2em;
-  }
+#timeline .img-downsized {
+  width: 40%;
+  margin-bottom: 0.4em;
+}
 
-  #timeline .img-downsized {
-    width: 40%;
-    margin-bottom: 0.4em;
-  }
+#gallery {
+  background-image: url(http://ih0.redbubble.net/image.86618780.4266/flat,1000x1000,075,f.u2.jpg);
+  background-repeat: repeat;
+  padding: 2em 2em 1em 2em;
+}
 
-  #gallery {
-    background-image: url(http://ih0.redbubble.net/image.86618780.4266/flat,1000x1000,075,f.u2.jpg);
-    background-repeat: repeat;
-    padding: 2em 2em 1em 2em;
-  }
+#gallery .thumb {
+  margin: 0 auto;
+}
 
-  #gallery .thumb {
-    margin: 0 auto;
-  }
+#links {
+  color: #DAD6D3;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #5B50C7;
+  padding: 2em 3em 0.5em 3em;
+}
 
-  #links {
-    color: #DAD6D3;
-    font-family: 'Roboto Mono', monospace;
-    background-color: #5B50C7;
-    padding: 2em 3em 0.5em 3em;
-  }
+#links a {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+}
 
-  #links a {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 14px;
-    color: #FFF;
-    text-shadow: 1px 1px 1px #000;
-  }
+footer {
+  color: #DAD6D3;
+  font-family: 'Roboto Mono', monospace;
+  background-image: url(http://67.media.tumblr.com/tumblr_lbr5g94SaY1qzp9weo1_1280.jpg);
+  background-repeat: repeat;
+  text-align: center;
+  padding: 1em;
+}
 
-  footer {
-    color: #DAD6D3;
-    font-family: 'Roboto Mono', monospace;
-    background-image: url(http://67.media.tumblr.com/tumblr_lbr5g94SaY1qzp9weo1_1280.jpg);
-    background-repeat: repeat;
-    text-align: center;
-    padding: 1em;
-  }
+footer .name {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+}
 
-  footer .name {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
-    color: #FFF;
-    text-shadow: 1px 1px 1px #000;
-  }
+footer p {
+  text-align: center;
+}
 
-  footer p {
-    text-align: center;
-  }
+footer ul {
+  margin: 0 auto;
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+}
 
-  footer ul {
-    margin: 0 auto;
-    display: inline-block;
-    margin: 0;
-    list-style: none;
-  }
+footer ul li {
+  display: inline;
+  margin: 0.5em;
+}
 
-  footer ul li {
-    display: inline;
-    margin: 0.5em;
-  }
+footer a {
+  color: #DAD6D3;
+  text-shadow: 1px 1px 1px #000;
+}
 
-  footer a {
-    color: #DAD6D3;
-    text-shadow: 1px 1px 1px #000;
-  }
-
-  footer a:hover,
-  a:visited {
-    color: #5D5E60;
-  }
+footer a:hover,
+a:visited {
+  color: #5D5E60;
+}

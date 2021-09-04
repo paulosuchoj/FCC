@@ -1,112 +1,27 @@
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Noto Sans JP', sans-serif;
-  }
+html{
+  position: relative;
+  min-height: 100%;
+}
 
-  body {
-    background-color: #fff057;
-  }
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  li {
-    list-style: none;
-  }
+#header-img {
+  width: 60vw;
+}
 
-  a {
-    color: #000000;
-    text-decoration: none;
-  }
+nav > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-  .container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  header {
-    position: fixed;
-    top: 0;
-    min-height: 75px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .logo {
-    width: 60vw;
-  }
-
-  .logo>img {
-    width: 100%;
-    height: 100%;
-    max-width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
-  }
-
-  nav {
-    font-weight: 400;
-  }
-
-  nav>ul {
-    width: 35vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  #hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 200px;
-    margin-top: 50px;
-  }
-
-  #email{
-    width: 240px;
-    height: 28px;
-  }
-
-  #form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 20px 6px 10px 6px;
-  }
-
-  #submit{
-    width: 160px;
-    height: 28px;
-    background-color: #f7ad00;
-    border: #f7ad00;
-    border-radius: 4px;
-    margin: 6px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 10px 6px 20px 6px;
-  }
-
-  #features .icon{
-    height: 125px;
-    width: 20vw;
-  }
-
-  .grid{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .description{
-    display: flex;
-    flex-direction: column;
-  }
+li{
+  width: 35vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
